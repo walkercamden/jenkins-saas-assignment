@@ -14,6 +14,8 @@ public class calculator {
 
     int result = add(num1, num2);
     System.out.println("Result: " + result);
+
+    System.out.println("Updating calculator output");
   }
 
   public static int add(int num1, int num2) {
