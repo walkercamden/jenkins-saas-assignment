@@ -12,7 +12,11 @@ public class calculator {
     num1 = scan.nextInt();
     num2 = scan.nextInt();
 
-    int result = num1 + num2;
+    int result = add(num1, num2);
     System.out.println("Result: " + result);
+  }
+
+  public static int add(int num1, int num2) {
+    return num1 + num2;
   }
 }
